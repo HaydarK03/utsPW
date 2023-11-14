@@ -577,7 +577,7 @@ text-align: right;
 /* .footer start */
 
 .footer{
-    font-family: 'Joti One', serif;
+    font-family: 'Days One', sans-serif;
     background-color: #FFA800;
     text-align: center;
     padding: 1rem 0;
@@ -621,6 +621,8 @@ text-align: right;
     color: #010101;
     font-weight: 600;
 }
+
+
 
 /* .footer end */
 
