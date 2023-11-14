@@ -168,6 +168,14 @@ li.dropdown {
 
 .change .bar3 {
     transform: translate(0, -8px) rotate(45deg);
+
+
+}
+
+.clock{
+    color: #FFA800;
+    display: none;
+    align-items: center;
 }
 /* navbar end */
 
@@ -695,6 +703,14 @@ text-align: right;
 
     .dropdown .isi-dropdown{
         background-color: #15222C;
+    }
+
+    .clock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 2rem;
     }
 }
 
