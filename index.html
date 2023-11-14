@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <!-- favicon -->
     <link rel="icon" type="img" href="img/icon.png">
+    <!-- fa-fa icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>AMEFest.</title>
 </head>
 <body>
 
-      <!-- Navbar start-->
+   
+
+    <!-- Navbar start-->
       <Nav class="navbar">
         <div class="logo">
             <a href="#home">AMEFest.</a>
@@ -29,7 +33,7 @@
                 </div>
             </div>
             <a href="#event" >Events</a>
-            <a href="#Tickets" >Tickets</a>
+            <a href="#tickets" >Tickets</a>
             <a href="#contact" >Contact</a>
         </div>
 
@@ -182,30 +186,31 @@
 
     <!-- Tickets section start -->
     <section>
-        <div class="Tickets" id="Tickets">
+        <div class="tickets" id="tickets">
             <div class="ticket-tittle">
                 <h3>Tickets</h3>
             </div>
+            <div class="ticket-parent">
+                <div class="ticket1">
+                    <div class="ticket-img">
+                        <img src="img/tiket1.png" alt="">
+                    </div>
+                    <div class="ticket-content1">
+                        <h4>One Day Pass</h4>
+                        <p>IDR 250.000,00</p>
+                        <button>Buy Here</button>
+                    </div>
+                </div>
 
-            <div class="ticket1">
-                <div class="ticket-img">
-                    <img src="img/tiket1.png" alt="">
-                </div>
-                <div class="ticket-content">
-                    <h4>One Day Pass</h4>
-                    <p>IDR 250.000,00</p>
-                    <button>Buy Here</button>
-                </div>
-            </div>
-
-            <div class="ticket1">
-                <div class="ticket-content">
-                    <h4>Two Day Pass</h4>
-                    <p>IDR 450.000,00</p>
-                    <button>Buy Here</button>
-                </div>
-                <div class="ticket-img">
-                    <img src="img/tiket2.png" alt="">
+                <div class="ticket2">
+                    <div class="ticket-content2">
+                        <h4>Two Day Pass</h4>
+                        <p>IDR 450.000,00</p>
+                        <button>Buy Here</button>
+                    </div>
+                    <div class="ticket-img">
+                        <img src="img/tiket2.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,7 +226,7 @@
             </div>
             <div class="contact-content">
                 <div class="contact-paragraf">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas beatae dolorem dolore exercitationem facere suscipit.</p>
+                    <p>Untuk informasi lengkap terkait Event bisa hubungi kami melalui:</p>
                </div>
                <div class="button">
                     <div class="button-email">
@@ -239,20 +244,22 @@
 
 
     <!-- footer start -->
-    <footer>
-        <div class="footer-nav">
-            <a href="#home" >Home</a>
-            <a href="#about">About</a>
-            <a href="#news" >News</a>
-            <a href="#Tickets" >Tickets</a>
-            <a href="#contact" >Contact</a>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i>Twitter</i></a>
+            <a href="#"><i>Facebook</i></a>
         </div>
-
+    
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#event">Event</a>
+            <a href="#tickets">Tickets</a>
+            <a href="#contact">Contact</a>
+        </div>
         <div class="credit">
-            <p>copyright by:
-                <a href="">Haydar K</a> 
-                | © 2023.
-            </p>
+            <p>Created by: <a href="#">Haydar K</a>| &copy; 2023.</p>
         </div>
     </footer>
     <!-- footer end -->

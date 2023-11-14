@@ -101,7 +101,8 @@ body{
 
 /* navbar-dropdown */
 .dropdown a{
-    padding: auto;    
+
+    padding: 0;    
 }
 
 .dropdown ul{
@@ -122,6 +123,9 @@ li.dropdown {
 .isi-dropdown {
     position: absolute;
     display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -173,7 +177,7 @@ li.dropdown {
     display: flex;
     align-items: center;
     background-image: url(img/bg.jpg);
-    width: 100%;
+    width: 1920px;
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -227,6 +231,7 @@ li.dropdown {
     display: block;
     align-items: center;
     margin-left: 6rem;
+    margin-right: 6rem;
     height: 80vh;
 
 }
@@ -391,11 +396,12 @@ li.dropdown {
 .event .event-gueststar .gueststar .g-container .g-content{
     color: #fff;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .event .event-gueststar .gueststar .g-container .g-button a{
     color: #15222C;
-    padding: 5px;
+    padding: 5px;   
     border-radius: 20px;
     background-color: #FFA800;
     font-size: small;
@@ -405,17 +411,205 @@ li.dropdown {
 
 
 
+/* tickets start */
+.tickets{
+    background-color: #FFA800;
+    /* padding-bottom: 4rem; */
+}
+.tickets .ticket-tittle{
+    font-family: 'Days One', sans-serif ;
+    font-size: 1.4rem;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: #15222C;
+    border-bottom: 2px solid #15222C;
+}
+
+.tickets .ticket-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-parent .ticket1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ticket-parent .ticket2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-img img{
+    width: 17rem;
+}
+
+.ticket-content1{
+    margin-left: 10rem;
+
+}
+
+.ticket-content2{
+    margin-right: 10rem;
+}
+
+.ticket-content1 h4,
+.ticket-content2 h4{
+    font-size: 50px;
+    margin: 0;
+    color: #15222C;
+}
+
+.ticket-content1 p,
+.ticket-content2 p{
+    font-size: 20px;
+    margin: 1.2rem 0;
+    color: #15222C
+}
+
+.ticket-content1 button,
+.ticket-content2 button{
+    color: #15222C;
+    font-weight: 400;
+    font-size: 1rem;
+    background: none;
+    border: 1px solid #15222C;
+    padding: 4px 7px;
+    border-radius: 20px;
+}
+
+.ticket-content1 button:hover,
+.ticket-content2 button:hover{
+    color: #FFA800;
+    background-color: #15222C;
+    font-size: 1.1rem;
+    transition: 0.1ms;
+    cursor: pointer;
+}
+/* tickets end */
 
 
+/* contact section start */
+.contact{
+    font-family: 'Roboto', sans-serif;
+    background-color: #15222C;
+    min-height: 40vh;
+    margin-top: 0;
+    padding-top: 5rem;
+    
+}
+
+.contact-tittle{
+    font-family: 'Days One', sans-serif ;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: #FFA800;
+    border-bottom: 2px solid #FFA800;
+}
+
+.contact-content{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 6rem;
+    margin-right: 2rem;
+    max-width: 80%;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-content .contact-paragraf{
+    margin-right: 5rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-email a{
+    text-decoration: none;
+    color: #15222C;
+    border: #FFA800;
+    margin-right: 5rem;
+    padding: 5px 10px 5px 10px;
+    border: solid #FFA800;
+    border-radius: 20px;
+    background-color: #FFA800;
+}
+
+.button-whatsapp a{
+    text-decoration: none;
+    border: #FFA800;
+    margin-right: 5rem;
+    color: #FFA800;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid #FFA800;
+    border-radius: 20px;
+}
+/* contact section end */
 
 
+/* .footer start */
 
+.footer{
+    font-family: 'Joti One', serif;
+    background-color: #FFA800;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
 
+.footer .social{
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
 
+.footer .social a{
 
+    color: #ffffff;
+    margin: 1rem ;
+    margin-bottom: 2rem;
+}
 
+.footer .social a:hover,
+.footer .links a:hover{
+    color: #15222C;
+}
 
+.footer .links {
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+}
 
+.footer .links a{
+    color: #fff;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+}
+
+.footer .credit{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+
+.footer .credit a{
+    color: #010101;
+    font-weight: 600;
+}
+
+/* .footer end */
 
 
 
@@ -429,9 +623,13 @@ li.dropdown {
 /* media queries */
 
 /* laptop */
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1366px) {
     html{
         font-size: 75%;
+    }
+
+    .hero-section{
+        width: 1366px;
     }
 
     #menu{
@@ -466,7 +664,7 @@ li.dropdown {
     }
 
     .navbar .navbar-nav a:hover{
-        color: #FFC600;
+        color: #FFA800;
         font-size: 1.6rem;
     }
 
@@ -474,7 +672,7 @@ li.dropdown {
         content: '';
         display: block;
         padding-bottom: 0.2rem;
-        border-bottom: 0.1rem solid #FFC600;
+        border-bottom: 0.1rem solid #FFA800;
         transform: scaleX(0);
         transition: 0.2s linear;
     }
